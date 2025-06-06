@@ -1,0 +1,260 @@
+{
+    "OVA": {
+      "titulo": "Descubre el Poder de los LLMs en la Educación",
+      "paginas": {
+        "Inicio": {
+          "mensaje_bienvenida": "Este OVA está diseñado para introducirte al fascinante mundo de los Modelos de Lenguaje de Gran Escala (LLMs) y su impacto en el ámbito educativo...",
+          "texto_introductorio": "Los Modelos de Lenguaje Grande (LLMs) están transformando la forma de enseñar y aprender..."
+        },
+        "Que_son_LLMs": {
+          "definicion": "Sistemas de IA entrenados para comprender y generar texto humano",
+          "ejemplos": ["GPT-4", "Gemini", "Claude"],
+          "definiciones_clave": [
+            {
+              "termino": "Inteligencia Artificial (IA)",
+              "descripcion": "Rama de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana..."
+            },
+            {
+              "termino": "Modelo de Lenguaje",
+              "descripcion": "Algoritmo entrenado para predecir la siguiente palabra en una secuencia de texto..."
+            },
+            {
+              "termino": "Procesamiento del Lenguaje Natural (PLN)",
+              "descripcion": "Subcampo de la IA enfocado en la interacción entre las computadoras y el lenguaje humano"
+            }
+          ],
+          "objetivos_OVA": [
+            "Comprender conceptos básicos de LLMs",
+            "Explorar aplicaciones educativas",
+            "Analizar ventajas y retos de implementación"
+          ]
+        },
+        "Aplicaciones_educativas": {
+          "categorias": [
+            {
+              "nombre": "Tutores virtuales",
+              "descripcion": "Asistentes 24/7 para resolver dudas y explicar conceptos",
+              "ejemplo": "Khanmigo"
+            },
+            {
+              "nombre": "Generación de material didáctico",
+              "herramientas": ["Canva Magic Write", "Diffit"],
+              "funcionalidad": "Creación automática de guías y ejercicios"
+            },
+            {
+              "nombre": "Corrección automática",
+              "herramientas": ["Turnitin con IA", "Grammarly"],
+              "aplicacion": "Análisis de ensayos y detección de plagio"
+            },
+            {
+              "nombre": "Aprendizaje Personalizado",
+              "descripcion": "Recomendación de recursos según desempeño",
+              "ejemplo": "Videos y lecturas específicas"
+            }
+          ]
+        },
+        "Casos_de_uso": {
+          "educacion_basica": {
+            "proyecto": "WriteBot (Finlandia)",
+            "objetivo": "Mejorar habilidades de redacción en estudiantes",
+            "implementacion": "Uso de GPT-4 para ejercicios personalizados",
+            "resultados": "40% aumento en calidad de redacción"
+          },
+          "educacion_superior": {
+            "proyecto": "PALI (Stanford)",
+            "funcionalidades": [
+              "Resumen automatizado de papers",
+              "Generación de hipótesis"
+            ]
+          },
+          "capacitacion_corporativa": {
+            "proyecto": "SkillBuilder (Microsoft)",
+            "caracteristica_clave": "Simulaciones conversacionales con IA"
+          },
+          "educacion_inclusiva": {
+            "proyecto": "Global Classroom (UNESCO)",
+            "implementacion": "Traducción simultánea a 15 idiomas"
+          }
+        },
+        "Actividades_practicas": {
+          "actividades": [
+            {
+              "nombre": "Diseño de Tutor Virtual",
+              "objetivo": "Crear chatbot educativo especializado",
+              "pasos": [
+                "Selección de herramienta (Botpress, OpenAI API)",
+                "Recopilación de datos frecuentes",
+                "Integración en plataformas educativas"
+              ],
+              "ejemplo": "MathBot en Argentina"
+            },
+            {
+              "nombre": "Generación de Contenido Adaptativo",
+              "herramientas": ["Diffit.me", "DALL-E 3"],
+              "ejemplo": "Revolución Industrial en distintos niveles"
+            }
+          ]
+        },
+        "Evaluacion": {
+          "estructura": {
+            "descripcion": "Evaluación de conocimientos sobre LLMs en educación",
+            "preguntas": [
+              {
+                "id": 1,
+                "pregunta": "¿Qué son los LLMs según el contenido del OVA?",
+                "opciones": [
+                  "Sistemas de IA entrenados para comprender y generar texto humano",
+                  "Programas exclusivamente diseñados para traducción de idiomas",
+                  "Software especializado en programación educativa"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 2,
+                "pregunta": "¿Cuál de los siguientes NO es un ejemplo de LLM mencionado en el OVA?",
+                "opciones": [
+                  "GPT-4",
+                  "Watson",
+                  "Claude"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 3,
+                "pregunta": "¿Qué ejemplo de tutor virtual se menciona en el OVA?",
+                "opciones": [
+                  "Khanmigo",
+                  "WriteBot",
+                  "SkillBuilder"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 4,
+                "pregunta": "¿En qué país se implementó el proyecto WriteBot mencionado en los casos de uso?",
+                "opciones": [
+                  "Finlandia",
+                  "Estados Unidos",
+                  "Argentina"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 5,
+                "pregunta": "¿Qué porcentaje de aumento en calidad de redacción reportó el proyecto WriteBot?",
+                "opciones": [
+                  "20%",
+                  "40%",
+                  "60%"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 6,
+                "pregunta": "¿Cuál de estas NO es una aplicación educativa de los LLMs según el OVA?",
+                "opciones": [
+                  "Tutores virtuales",
+                  "Corrección automática",
+                  "Diseño de infraestructura escolar"
+                ],
+                "respuesta_correcta": 2
+              },
+              {
+                "id": 7,
+                "pregunta": "¿Qué herramientas se mencionan para la generación de material didáctico?",
+                "opciones": [
+                  "Canva Magic Write y Diffit",
+                  "Turnitin y Grammarly",
+                  "Botpress y OpenAI API"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 8,
+                "pregunta": "¿Qué característica principal tiene el proyecto de educación inclusiva Global Classroom?",
+                "opciones": [
+                  "Accesibilidad física en escuelas",
+                  "Traducción simultánea a 15 idiomas",
+                  "Materiales en braille"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 9,
+                "pregunta": "¿Qué universidad está asociada con el proyecto PALI mencionado en el OVA?",
+                "opciones": [
+                  "Harvard",
+                  "MIT",
+                  "Stanford"
+                ],
+                "respuesta_correcta": 2
+              },
+              {
+                "id": 10,
+                "pregunta": "¿Cuál de las siguientes es una funcionalidad del proyecto PALI?",
+                "opciones": [
+                  "Diseño de exámenes",
+                  "Resumen automatizado de papers",
+                  "Gestión de asistencia"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 11,
+                "pregunta": "¿Qué empresa desarrolló el proyecto SkillBuilder mencionado en el OVA?",
+                "opciones": [
+                  "Google",
+                  "Microsoft",
+                  "Apple"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 12,
+                "pregunta": "¿Cuál es el ejemplo de actividad práctica relacionada con un chatbot educativo especializado?",
+                "opciones": [
+                  "MathBot en Argentina",
+                  "WriteBot en Finlandia",
+                  "Global Classroom de UNESCO"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 13,
+                "pregunta": "Según el OVA, ¿qué es el Procesamiento del Lenguaje Natural (PLN)?",
+                "opciones": [
+                  "Técnica para mejorar la pronunciación",
+                  "Subcampo de la IA enfocado en la interacción entre computadoras y lenguaje humano",
+                  "Método de traducción simultánea"
+                ],
+                "respuesta_correcta": 1
+              },
+              {
+                "id": 14,
+                "pregunta": "¿Qué herramientas se mencionan para la actividad de Generación de Contenido Adaptativo?",
+                "opciones": [
+                  "Diffit.me y DALL-E 3",
+                  "Botpress y OpenAI API",
+                  "Turnitin y Grammarly"
+                ],
+                "respuesta_correcta": 0
+              },
+              {
+                "id": 15,
+                "pregunta": "¿Cuál de los siguientes NO es un objetivo del OVA mencionado?",
+                "opciones": [
+                  "Comprender conceptos básicos de LLMs",
+                  "Analizar ventajas y retos de implementación",
+                  "Aprender a programar modelos de IA"
+                ],
+                "respuesta_correcta": 2
+              }
+            ]
+          }
+        },
+        "Recursos_adicionales": {
+          "secciones": []
+        }
+      }
+    }
+  }
